@@ -16,7 +16,8 @@
     "react-dom": "^18.2.0",
     "react-hotkeys-hook": "^4.0.4",
     "react-redux": "^8.0.5",
-    "tinycolor2": "^1.4.2"
+    "tinycolor2": "^1.4.2",
+    "vite-tsconfig-paths": "^3.6.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",

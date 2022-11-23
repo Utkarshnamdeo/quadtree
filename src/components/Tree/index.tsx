@@ -1,6 +1,6 @@
-import { ActionButtons, CurrentNode, Quad } from '../../components';
-import { useAppSelector } from '../../app/hooks';
-import { selectRootNode } from '../../features/treeSlice';
+import { ActionButtons, CurrentNode, Quad } from '@/components';
+import { useAppSelector } from '@/app/hooks';
+import { selectRootNode } from '@/features/treeSlice';
 
 export const Tree = () => {
   const nodeToRender = useAppSelector(selectRootNode);

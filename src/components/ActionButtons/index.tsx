@@ -6,14 +6,14 @@ import {
 } from '@heroicons/react/24/solid';
 import { useHotkeys } from 'react-hotkeys-hook';
 
-import { useAppDispatch, useAppSelector } from '../../app/hooks';
+import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import {
   redoTree,
   resetState,
   selectFuturePath,
   selectPastPath,
   undoTree,
-} from '../../features/treeSlice';
+} from '@/features/treeSlice';
 
 export const ActionButtons = ({ className }: { className: string }) => {
   const pastPath = useAppSelector(selectPastPath);

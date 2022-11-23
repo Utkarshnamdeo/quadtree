@@ -1,4 +1,4 @@
-import { Header, Tree } from './components/';
+import { Header, Tree } from '@/components/';
 
 function App() {
   return (
