@@ -1,5 +1,5 @@
 import tinyColor from 'tinycolor2';
-import { NodeState, TreeState } from '../features/treeSlice';
+import { NodeState, TreeState } from '@/features/treeSlice';
 
 export const createChildren = (nodeId: string, quantity = 4) => {
   let nodes = [] as NodeState[];

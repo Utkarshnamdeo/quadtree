@@ -1,9 +1,9 @@
-import { createChildren, findNode } from '../app/util';
 import { createSlice, current } from '@reduxjs/toolkit';
 import tinyColor from 'tinycolor2';
-
-import { RootState } from '../app/store';
 import { WritableDraft } from 'immer/dist/types/types-external';
+
+import { createChildren, findNode } from '@/app/util';
+import { RootState } from '@/app/store';
 
 export interface TreeState {
   currentNode: NodeState | null;

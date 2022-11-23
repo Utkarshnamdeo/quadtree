@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 
-import { useAppSelector } from '../../app/hooks';
-import { NodeState, selectCurrentNode } from '../../features/treeSlice';
+import { useAppSelector } from '@/app/hooks';
+import { NodeState, selectCurrentNode } from '@/features/treeSlice';
 
 const CurrentNodeWrapper = ({
   children,

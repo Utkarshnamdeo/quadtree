@@ -1,12 +1,8 @@
 import { MouseEvent } from 'react';
 import clsx from 'clsx';
 
-import {
-  NodeState,
-  addChildren,
-  addToUndoPath,
-} from '../../features/treeSlice';
-import { useAppDispatch } from '../../app/hooks';
+import { NodeState, addChildren, addToUndoPath } from '@/features/treeSlice';
+import { useAppDispatch } from '@/app/hooks';
 
 export const Quad = ({
   nodeToRender,
