@@ -26,11 +26,11 @@ const CurrentNodeInfo = ({ nodeId, level, parentId }: Partial<NodeState>) => {
       <div className='flex justify-center text-lg font-bold mix-blend-difference text-white'>
         <span>Current Node</span>
       </div>
-      <div className='text-sm font-medium truncate mix-blend-difference text-white'>
-        <p className=''>
+      <div className='text-sm font-medium mix-blend-difference text-white'>
+        <p>
           <strong>NodeID: </strong> {nodeId}
         </p>
-        <p className=''>
+        <p>
           <strong>ParentId: {parentId}</strong>
         </p>
         <p>
