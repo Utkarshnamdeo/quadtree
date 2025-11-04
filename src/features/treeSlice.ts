@@ -1,6 +1,6 @@
 import { createSlice, current } from '@reduxjs/toolkit';
 import tinyColor from 'tinycolor2';
-import { WritableDraft } from 'immer/dist/types/types-external';
+import type { Draft } from 'immer';
 
 import { createChildren, findNode } from '@/app/util';
 import { RootState } from '@/app/store';
@@ -63,7 +63,7 @@ export const treeSlice = createSlice({
         return;
       }
 
-      state.futurePath.push(state.currentNode as WritableDraft<NodeState>);
+  state.futurePath.push(state.currentNode as Draft<NodeState>);
 
       const foundNode = findNode({
         state,
